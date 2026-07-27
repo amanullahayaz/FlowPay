@@ -30,6 +30,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+PROJECT_STATUS_AND_FOLDER_GUIDE.md
+*_log.md
+docs/logs/
 
 # Docker Persistent Volumes
 postgres_data/
