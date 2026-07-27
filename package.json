@@ -1,0 +1,32 @@
+{
+  "name": "flowpay-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlowPay - Production-Grade AI-Powered Distributed Banking & Payment Platform",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run start:dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:api": "npm run build --workspace=apps/api",
+    "build:web": "npm run build --workspace=apps/web",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "test:api": "npm run test --workspace=apps/api"
+  },
+  "keywords": [
+    "fintech",
+    "banking",
+    "double-entry-ledger",
+    "distributed-systems",
+    "nestjs",
+    "react",
+    "kafka",
+    "redis",
+    "postgresql",
+    "ai"
+  ],
+  "author": "FlowPay Architecture Team",
+  "license": "MIT"
+}

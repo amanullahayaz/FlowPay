@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build & Compilation outputs
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/out/
+*.tsbuildinfo
+
+# Environment & Sensitive Configs
+.env
+.env.local
+.env.*.local
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Docker Persistent Volumes
+postgres_data/
+redis_data/
+**/postgres_data/
+**/redis_data/
+
+# Testing & Coverage
+coverage/
+**/coverage/
+.nyc_output/
